@@ -434,7 +434,7 @@ public class plant_care extends AppCompatActivity {
         }
 
         public String doInBackground(String... args) {
-            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/csc510_SmartWeatherApp/master/plant_db.json");
+            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/SmartWeatherApp/master/DataBase/plant_db.json");
             return response;
         }
 

@@ -228,7 +228,7 @@ public class activities_recommend extends AppCompatActivity {
         }
 
         public String doInBackground(String... args) {
-            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/csc510_SmartWeatherApp/master/cloth_db.json");
+            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/SmartWeatherApp/master/DataBase/cloth_db.json");
             return response;
         }
 
@@ -251,7 +251,7 @@ public class activities_recommend extends AppCompatActivity {
         }
 
         public String doInBackground(String... args) {
-            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/csc510_SmartWeatherApp/master/activity_db.json");
+            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/SmartWeatherApp/master/DataBase/activity_db.json");
             return response;
         }
 

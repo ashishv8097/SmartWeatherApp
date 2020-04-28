@@ -188,7 +188,7 @@ public class food_recommend extends AppCompatActivity {
         }
 
         public String doInBackground(String... args) {
-            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/csc510_SmartWeatherApp/master/food_db.json");
+            String response =  HttpRequest.excuteGet("https://raw.githubusercontent.com/ashishv8097/SmartWeatherApp/master/DataBase/food_db.json");
             return response;
         }
 
